@@ -1,8 +1,9 @@
 import cv2
-import dlib
+
 import math
 import time
 
+import dlib
 car_detect = cv2.CascadeClassifier('car_detect_harrcascade.xml')
 video = cv2.VideoCapture('highway.mp4')
 
